@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Central de sistemas da Even para acesso rápido ao EvenMore, EvenVendas e treinamentos.">
+    <title>Central de Sistemas - Even</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Central de Sistemas - Even</h1>
+        
+        <!-- Botão para EvenMore -->
+        <button class="company-button" onclick="showSection('evenmore')">Acessar EvenMore</button>
+        
+        <!-- Linha de separação -->
+        <div class="separator"></div>
+
+        <!-- Botão para EvenVendas -->
+        <button class="company-button" onclick="showSection('evenvendas')">Acessar EvenVendas</button>
+
+        <div id="evenmore" class="section">
+            <h2>Acessos EvenMore</h2>
+            <p><a href="https://webmail.emci.com.br" class="link" target="_blank" rel="noopener noreferrer">Webmail</a></p>
+            <p><a href="https://sigav.even.com.br" class="link" target="_blank" rel="noopener noreferrer">SIGAV</a></p>
+            <p><a href="http://corretor.even.com.br" class="link" target="_blank" rel="noopener noreferrer">Portal do Corretor</a></p>
+            <p><a href="https://evenmore.hypnobox.com.br" class="link" target="_blank" rel="noopener noreferrer">Hypnobox</a></p>
+            <p><a href="mailto:tiimob@evenimob.com.br" class="link">Suporte TI</a></p>
+            <button onclick="hideSections()" class="company-button">Voltar</button>
+        </div>
+
+        <div id="evenvendas" class="section">
+            <h2>Acessos EvenVendas</h2>
+            <p><a href="https://webmail.evci.com.br" class="link" target="_blank" rel="noopener noreferrer">Webmail</a></p>
+            <p><a href="https://sigav.even.com.br" class="link" target="_blank" rel="noopener noreferrer">SIGAV</a></p>
+            <p><a href="http://corretor.even.com.br" class="link" target="_blank" rel="noopener noreferrer">Portal do Corretor</a></p>
+            <p><a href="https://even.hypnobox.com.br" class="link" target="_blank" rel="noopener noreferrer">Hypnobox</a></p>
+            <p><a href="mailto:tiimob@evenimob.com.br" class="link">Suporte TI</a></p>
+            <button onclick="hideSections()" class="company-button">Voltar</button>
+        </div>
+
+        <!-- Caixa do link de Treinamentos -->
+        <div class="training-link-container">
+            <h2>Treinamentos</h2>
+            <p>Para acessar os treinamentos da Even, clique no link abaixo:</p>
+            <a href="https://evenbr-my.sharepoint.com/personal/rnetto_even_com_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frnetto%5Feven%5Fcom%5Fbr%2FDocuments%2FTREINAMENTOS&ga=1" target="_blank" rel="noopener noreferrer">Acessar Treinamentos</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
